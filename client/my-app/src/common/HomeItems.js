@@ -30,6 +30,7 @@ export default class HomeItems extends React.Component{
             console.log(match.path.substring(1, match.path.length));
             this.url = BACKEND_URL+"/guardian/"+ match.path.substring(1, match.path.length);
         }
+        console.log("url:", this.url)
         axios.get(this.url)
             .then(res => {
                 const ItemsInfo = res.data;

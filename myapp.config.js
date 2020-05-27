@@ -12,7 +12,7 @@ module.exports = {
         },
         {
             name: "myapp-client",
-            script: "./client/server.js",
+            script: "./client/my-app/server.js",
             watch: true,
             env: {
                 "NODE_ENV": "development",
@@ -23,4 +23,4 @@ module.exports = {
         }
     ]
 }
-© 2020 GitHub, Inc.
+
