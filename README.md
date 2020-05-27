@@ -22,4 +22,4 @@ pm2 start myapp.config.js
 Step4: open localhost:3000 then you will see the App running!
 
 ## Author
-* ** Kun Shi**
+* **Kun Shi**
