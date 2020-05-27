@@ -1,0 +1,77 @@
+.expand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Roboto,sans-serif;
+    padding: 20px;
+    box-shadow: 1px 1px 5px #B3B3B3, -1px 1px 10px #B3B3B3;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 3%;
+}
+
+
+.expandTitle{
+    width: 100%;
+    font-size: 30px;
+    font-style: italic;
+    /*font-weight: bold;*/
+    /*float: left;*/
+}
+
+img{
+    width: 100%;
+    /*height: 550px;*/
+    object-fit: cover;
+}
+
+.infoLine1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.MuiTooltip-tooltip{
+    background: black;
+}
+
+.date1{
+    margin-left: 15px;
+    font-weight: bold;
+    flex-grow: 2;
+}
+
+.description{
+    padding-top: 5px;
+    font-size: small;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    display: -moz-box;
+    -moz-line-clamp: 6;
+    -moz-box-orient: vertical;
+}
+.description2{
+    padding-top: 5px;
+    font-size: small;
+}
+
+.expandIcon{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    width:100%;
+}
+
+.toast-success-container {
+    color: black;
+    font-size: small;
+}
+
+.iconBar1{
+    margin-right: 120px;
+}

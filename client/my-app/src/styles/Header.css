@@ -1,0 +1,39 @@
+.sb {
+    width: 250px;
+}
+
+#mynav {
+    background:  linear-gradient(90deg, #003380  0%, #0066cc 100%);
+    display: flex;
+    flex-direction: row;
+}
+.nav-link:hover{
+    cursor: pointer;
+}
+
+.switchBar{
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media screen and (max-width:480px) {
+    .switchBar{
+        display: flex;
+        width:50px;
+        flex-direction: column;
+        align-items: start;
+    }
+    .switchBar span{
+        margin: 0 !important;
+    }
+    .mr-auto a{
+        -webkit-text-fill-color:rgba(255,255,255,0.5);
+    }
+}
+
+a:hover {
+    color: white;
+}

@@ -1,0 +1,112 @@
+a{
+    all:unset
+}
+
+.newsItem:hover{
+    cursor: pointer;
+}
+
+.newsItem {
+    height: 220px;
+    display: flex;
+    /*display: -webkit-box;*/
+    flex-direction: row;
+    align-content: center;
+    box-shadow: 1px 1px 5px #B3B3B3, -1px 1px 10px #B3B3B3;
+    border-radius: 5px;
+    margin: 30px 10px 15px 10px;
+    padding: 20px;
+}
+
+.newsImg {
+    border: 1px solid gainsboro;
+    border-radius: 2px;
+    padding: 5px;
+    width:300px;
+    min-height:180px;
+    /*overflow: hidden;*/
+    flex-shrink: 0;
+    flex-basis: 300px;
+}
+
+.newsImg img{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+
+.newsContent h1{
+    font-style: italic;
+    font-size: large;
+    font-weight: bold;
+}
+
+.newsContent {
+    margin-left: 25px;
+    width: 100%;
+    flex-shrink: 2;
+    /*width: 1100px;*/
+}
+
+
+.des {
+    font-size: small;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -moz-box;
+    -moz-line-clamp: 3;
+    -moz-box-orient: vertical;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    font-size: small;
+}
+
+.type{
+    border-radius: 4px;
+    padding: 0 5px 0 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:480px) {
+    .newsItem {
+        flex-direction: column;
+        height: 390px;
+        /*height:auto;*/
+        align-content: center;
+        margin: 10px 10px 15px 10px;
+    }
+    .newsImg {
+        border: 1px solid gainsboro;
+        border-radius: 2px;
+        padding: 5px;
+        width:100%;
+        max-height:120px;
+        /*overflow: hidden;*/
+        flex-shrink: 0;
+        flex-basis: 300px;
+    }
+    .newsContent {
+        margin-left: 0;
+    }
+}
+
+/*.newsItem {*/
+/*    !*height: 220px;*!*/
+/*    display: flex;*/
+/*    !*display: -webkit-box;*!*/
+/*    flex-direction: column;*/
+/*    align-content: center;*/
+/*    box-shadow: 1px 1px 5px #B3B3B3, -1px 1px 10px #B3B3B3;*/
+/*    border-radius: 5px;*/
+/*    margin: 30px 10px 15px 10px;*/
+/*    padding: 20px;*/
+/*}*/

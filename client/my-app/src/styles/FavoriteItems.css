@@ -1,0 +1,19 @@
+.fv{
+    font-weight: bold;
+    font-size: larger;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.fvItems{
+    /*margin:10px;*/
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+}
+
+.toast-success-container{
+    width: 350px;
+    margin: auto;
+}
